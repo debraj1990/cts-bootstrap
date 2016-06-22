@@ -1,0 +1,30 @@
+@CHARSET "UTF-8"; 
+
+body {
+	
+}
+
+h1 {
+	color: #9799a7;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 6px;
+}
+
+figure {
+	margin: 0 0 24px 0;
+}
+
+.figure-75 {
+	width: 75%;
+}
+
+.figure-50 {
+	margin-bottom: 0;
+	width: 50%;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
