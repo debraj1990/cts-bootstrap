@@ -51,89 +51,58 @@
 	
 	<div class="container">
 	
+		<div class="row">
 		
-		<div class="col-md-9 col-md-push-3">
-			<div class="panel panel-default">
-				<div class="panel-body">
-				
-					<div class="row">
-						<div class="col-md-4 col-sm-4 col-xs-4 hidden-print">
-							<img alt="pov" src="images/po.png" class="img-responsive img-thumbnail">
-						</div>
-						<div class="col-md-8 col-sm-8 col-xs-8">
-							<h4> Bootstrap - grid system <small> - 23<sup>rd</sup> June-2016 </small> </h4>
-							<p class="lead text-left">Bootstrap includes a responsive, 
-							mobile first fluid grid system that appropriately scales up to <mark>12 columns</mark> as the device
-							or viewport size increases. It includes predefined classes for easy layout options,
-							as well as powerful mixins for generating more semantic layouts for <abbr title="Responsive Web Design">RWD</abbr> </p>
-							<blockquote class="blockquote-reverse">
-								<small>by Nag</small>
-							</blockquote>
-						</div>
+			<div class="col-md-5">
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<h5>Contact Address</h5>
 					</div>
-					
-					<div class="table-responsive">
-						<table class="table table-bordered table-condensed table-striped table-hover">
-					    <thead>
-					      <tr>
-					        <th>Device Type</th>
-					        <th>Devices</th>
-					        <th>2013</th>
-					        <th>2014</th>
-					        <th>Change</th>
-					      </tr>
-					    </thead>
-					    <tbody>
-					      <tr>
-					        <td>Traditional</td>
-					        <td>Desktops,Laptops,etc..</td>
-					        <td>88.62%</td>
-					        <td>78.99%</td>
-					        <td class="bg-danger">-9.63%</td>
-					      </tr>
-					      <tr>
-					        <td>Smartpnone</td>
-					        <td>Windows mobile,IPhone,Android</td>
-					        <td>5.42%</td>
-					        <td>10.42%</td>
-					        <td class="bg-success">+5.02%</td>
-					      </tr>
-					      <tr>
-					        <td>Tablets</td>
-					        <td>Tabs,IPAD,Slates</td>
-					        <td>5.95%</td>
-					        <td>10.58%</td>
-					        <td>+4.63%</td>
-					      </tr>
-					    </tbody>
-					  </table>
+					<div class="panel-body">
+						<address>
+						#999,<br/>city,<br/>country
+						</address>
 					</div>
-		
-					<div class="row hidden-print">
-						<div class="col-md-6">
-							<img alt="pov" src="images/po.png" class="img-responsive">
-						</div>
-						<div class="col-md-6 visible-md visible-lg">
-							<img alt="tj" src="images/tom-and-jerry.jpg" class="img-responsive">
-						</div>
-					</div>
-				
 				</div>
-			</div>									
+			</div>
+			<div class="col-md-7">
+				
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<h5>Contact Form</h5>
+					</div>
+					<div class="panel-body">
+						
+						<form name="contactform">
+							<div class="form-group">
+								<label class="sr-only">Name:</label>
+								<input class="form-control" id="contactName" placeholder="Enter Name">
+							</div>
+							<div class="form-group">
+								<label class="sr-only">Email:</label>
+								 <div class="input-group">
+							     	<input type="email" class="form-control" id="contactEmail" placeholder="Enter Email">
+							      	<div class="input-group-addon">@cognizant.com</div>
+							    </div>
+							</div>
+							<div class="form-group">
+								<label class="sr-only">Subject:</label>
+								<input type="text" class="form-control" id="contactSubject" placeholder="Enter Subject">
+							</div>
+							<div class="form-group">
+								<label class="sr-only">Message:</label>
+								<textarea rows="5" class="form-control" cols="35" id="contactMessage" placeholder="Enter Message"></textarea>
+							</div>
+							<button id="contactFormBtn" type="button" class="btn btn-primary btn-sm">Submit</button>
+						</form>
+						
+					</div>
+				</div>
+				
+			</div>
+		
 		</div>
-		<div class="col-md-3 col-md-pull-9">
-			 <div class="panel panel-default">
-			 	<div class="panel-heading">links</div>
-			 	<div class="panel-body">
-			 		<ul class="nav nav-stacked">
-					 	<li><a href>Link-1</a></li>
-					 	<li><a href>Link-2</a></li>
-					 	<li><a href>Link-3</a></li>
-					 	<li><a href>Link-4</a></li>
-					 </ul>	
-			 	</div>
-			 </div>
-		</div>
+		
 	
 	</div>
 		
@@ -164,6 +133,9 @@
 	
 	<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
+	<script type="text/javascript" src="contact-form-validation.js">
+	</script>
 
 </body>
 </html>

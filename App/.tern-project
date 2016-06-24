@@ -5,10 +5,19 @@
     },
     "node": {
       
+    },
+    "browser-extension": {
+      
+    },
+    "jquery-extension": {
+      
     }
   },
   "libs": [
     "ecma5",
-    "ecma6"
-  ]
+    "ecma6",
+    "browser",
+    "jquery"
+  ],
+  "ecmaVersion": 6
 }
