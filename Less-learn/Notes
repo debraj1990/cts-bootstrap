@@ -1,0 +1,20 @@
+
+
+CSS pre-processor
+--------------------
+
+ -> Less
+ -> SASS
+ -> stylus
+ 
+ 
+ 
+ {LESS}
+ ----------
+ 
+ --> variables
+ --> mixins
+ --> dynamically calculated values
+ --> Functions
+ 
+ ---------------------------

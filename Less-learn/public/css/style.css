@@ -1,0 +1,54 @@
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  background-color: #ffffff;
+  color: #0023AE;
+  padding: 15px;
+}
+.small-circle {
+  background-color: #4CAF50;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+.big-circle {
+  background-color: #4CAF50;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+ul {
+  background-color: #03A9F4;
+  padding: 10px;
+  list-style: none;
+}
+ul li {
+  color: #A00000;
+  background-color: #fff;
+  border-radius: 3px;
+  margin: 10px 0;
+}
+div {
+  height: 50px;
+  display: inline-block;
+}
+#left {
+  width: 100px;
+  background-color: #004590;
+}
+#right {
+  width: 200px;
+  background-color: #03A9F4;
+}
+.mybox {
+  height: 50px;
+  width: 50px;
+  background-color: 4590;
+}
+.mybox:hover {
+  background-color: rgba(128, 242, 13, 0.4);
+}

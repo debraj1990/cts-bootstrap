@@ -1,0 +1,99 @@
+
+//  variables
+
+@background-color:#fff;
+@color:#0023AE;
+
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	background-color: @background-color;
+	color: @color;
+	padding: 15px;
+}
+
+//--------------------------------------------
+
+// Mixins
+
+.circle(@w,@h){
+    background-color: #4CAF50;
+    border-radius: 100%;
+    width: @w;
+    height: @h;
+}
+
+.small-circle{ 
+    .circle(50px,50px)
+}
+
+.big-circle{
+    .circle(100px,100px)
+}
+
+//--------------------------------------------
+
+// Nesting and Scope
+
+@text-color:#A00000;
+
+ul{
+    background-color: #03A9F4;
+    padding: 10px;
+    list-style: none;
+
+    li{
+        color: @text-color;
+        background-color: #fff;
+        border-radius: 3px;
+        margin: 10px 0;
+    }
+
+}
+
+//--------------------------------------------
+
+
+
+// Operations
+
+
+@div-width:100px;
+@mycolor:#03A9F4;
+
+div{
+    height: 50px;
+    display: inline-block;
+}
+
+#left{
+    width: @div-width;
+    background-color: @mycolor - 100;
+}
+#right{
+    width: @div-width*2;
+    background-color: @mycolor;
+}
+
+//--------------------------------------------
+
+// functions
+
+@var:004590;
+
+.mybox{
+    height: 50px;
+    width: 50px;
+    background-color: @var;
+
+    &:hover{
+        background-color: fadeout(hsla(90, 90%, 50%, 0.5), 10%);
+
+
+    }
+}
